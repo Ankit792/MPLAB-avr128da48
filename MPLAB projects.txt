@@ -1,0 +1,20 @@
+basic1 -- X
+basic2 -- blink at 500ms -- MCC
+basic3 -- brightness ncrement decrement -- No MCC
+basic3Interrupt -- X
+basicLedBlink -- blink at 1000ms -- No MCC
+basicSwitch -- overflow isr value -- MCC -- half working
+dimmingHoldIncre -- press and hold to increase and press to decrease -- MCC
+
+dimmingMCC -- dutycycle auto increment decrement
+dimmingNoMCC -- same as dimmingMCC
+
+dimmingPressHoldSwitch -- during press and hold increment and decrement
+
+dimmingSwitch -- No MCC -- same as dimmingMCC
+
+ghLedTimer -- using interrupt auto toggle in 1s-- IMPORTANT
+switchToggle -- when press off then auto on -- No MCC
+switchToggleMCC -- same as switchtoggle
+
+
